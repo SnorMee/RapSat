@@ -103,7 +103,7 @@ let th = 1000/2
 let numX = 4
 // Sizing - DEPENDENT
 let numY = 12/numX
-var paper = Raphael("canvas", tw , th);
+var paper = Raphael("canvas", tw+10 , th+10);
 let x = 10
 let x0 = x
 let y = 10
